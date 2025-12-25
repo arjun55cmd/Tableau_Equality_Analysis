@@ -1,38 +1,77 @@
-# Tableau Equality & Device Health Analysis
+# Tableau Equality Analysis Project
 
 ## 📊 Project Overview
-This project analyzes device health and equality indicators across multiple factories using interactive Tableau visualizations.  
-The objective is to identify unhealthy device patterns and compare performance across locations.
+This project presents an equality and device health analysis using Tableau.  
+The objective is to identify unhealthy device patterns across different factories and device types, and to derive actionable operational insights through data visualization.
 
-## 🛠 Tools Used
+The project demonstrates practical skills in:
+- Data analysis
+- Tableau dashboard creation
+- Insight-driven reporting
+- Version control using GitHub
+
+---
+
+## 🛠 Tools & Technologies
 - Tableau
 - Microsoft Excel
 - GitHub
 
-## 📁 Dataset
-The dataset contains device-level health metrics collected from multiple factories, including:
-- Berlin
-- Meiyo
-- Seiko
-- Shenzhen
+---
 
-📂 Location: `data/Task 5 Equality Table.xlsx`
+## 📁 Files in This Repository
 
-## 📈 Dashboard Output
-The Tableau dashboard visualizes:
+### 1️⃣ Dataset
+**Equality Table.xlsx**  
+This Excel file contains the raw data used for the analysis, including:
+- Factory-wise data
+- Device types
+- Health status indicators
+
+---
+
+### 2️⃣ Tableau Dashboard (Packaged Workbook)
+**dashboardtableau_project.twbx**  
+This is the original Tableau packaged workbook, which includes:
+- Data source
+- Worksheets
+- Visualizations
+- Dashboard layout
+
+➡️ Open this file directly in Tableau to explore or modify the analysis.
+
+---
+
+### 3️⃣ Dashboard Export (PDF)
+**Tableau_Equality_Analysis.pdf**  
+A static PDF version of the Tableau dashboard showcasing:
 - Unhealthy device counts by factory
-- Device-type-wise health comparison
+- Device-type-wise comparison
 - Factory-level performance insights
 
-📂 Location: `dashboard/tableau_project_task1.pdf`
+Useful for quick viewing without Tableau.
 
-## 🔍 Key Insights
-- Certain factories show consistently higher unhealthy device counts
-- Specific device types contribute disproportionately to overall risk
-- Clear scope for predictive maintenance and operational optimization
+---
 
-## 🚀 How to Use
-1. Download the dataset from the `data` folder
-2. Open Tableau
-3. Recreate or extend the dashboard using the provided data
-4. Compare insights across factories
+## 📈 Key Insights
+- Certain factories consistently report higher numbers of unhealthy devices
+- Specific device types contribute disproportionately to overall health risks
+- The analysis highlights opportunities for predictive maintenance and process optimization
+
+---
+
+## 🚀 How to Use This Project
+1. Download the repository
+2. Open `dashboardtableau_project.twbx` in Tableau
+3. Review or extend the dashboards using the provided dataset
+4. Use the PDF for presentation or documentation purposes
+
+---
+
+## 🎯 Learning Outcomes
+- Hands-on experience with Tableau dashboards
+- Translating raw data into meaningful insights
+- Structuring analytics projects for professional portfolios
+
+---
+
